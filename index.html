@@ -1139,10 +1139,11 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="https://api.web3forms.com/submit" class="form" method="POST" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="hidden" name="access_key" value="e1a442f3-c9cc-4775-89fe-48a839fb3435">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
 
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
